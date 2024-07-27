@@ -36,17 +36,31 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="Service.html">Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="trainers.html">Trainers</a>
+                    <a class="nav-link" href="Trainers.html">Trainers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="Contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Example of a simple dynamic interaction
+            const footer = document.querySelector('.footer');
+            footer.addEventListener('mouseenter', function() {
+                footer.style.backgroundColor = '#495057';
+            });
+            footer.addEventListener('mouseleave', function() {
+                footer.style.backgroundColor = '#343a40';
+            });
+        });
+    </script>
 
     <div class="hero">
         <h1>Welcome to Our Gym</h1>
@@ -58,14 +72,72 @@
                 <h2>About Our Gym</h2>
                 <p>Welcome to our gym, where we offer top-notch facilities, experienced trainers, and a wide range of
                     services to help you achieve your fitness goals. Join us today to start your journey towards a
-                    healthier and fitter you!</p>
+                    healthier and fitter you!
+                    Many reasons to go to gym. Of course, exercise is a priority. The gym has plenty of exercise machines that people can use to develop different muscle groups. Kulas (para. 1), in her article, “The Advantages of Going to the Gym Every Day,” says at least 30 minutes of moderate exercise should be done by adults five days a week, so going to the gym every day will meet that goal. It will result in good physical and mental health.
+
+                    Aside from exercising, one can meet new friends like fitness instructors and others. It’s good to be with people with the same interests so that all can motivate each other to keep their fitness goals.
+                    
+                    When one exercises, the heart becomes stronger, so it efficiently pumps blood to the body to keep vital organs healthy and in order. For example, blood pressure is maintained instead of spike high, cholesterol and triglyceride levels are kept low, and heart disease is kept at bay. It means there is less chance of a heart attack, stroke, or any other disease when one exercises regularly </p>
             </div>
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaD9Kxzn7-cQmDn147uOi0JDwq4vAvfMJrng&s"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <br>
+
+    <footer class="footer bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Welcome to our gym! We offer the best equipment and trainers to help you achieve your fitness goals.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="Service.html" class="text-white">Services</a></li>
+                        <li><a href="Trainers.html" class="text-white">Trainers</a></li>
+                        <li><a href="Contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Gym Street, Fitness City</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@gymwebsite.com</p>
+                </div>
+            </div>
+            <div class="text-center py-3">
+                &copy; 2024 Gym Website. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <br>
+    <br>
+
+    <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="index.html" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="Service.html">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="Trainers.html">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="Contact.html">Next</a>
+          </li>
+        </ul>
+      </nav>
 </body>
 
 </html>
